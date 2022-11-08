@@ -1,0 +1,1336 @@
+Identifier Name,FINAL GRAMMAR PATTERN,POSSE,SWUM,STANFORD,system,language
+"ares,expand,name,for,response",PRE V N P N,V NM N P N,{'grpc.srcml.xml_identifiers'}
+"bke,lattice,index,flip",PRE NM N V,V NM NM N,{'blender.srcml.xml_identifiers'}
+"bli,str,r,strip",PRE N VM V,V NM NM N,{'blender.srcml.xml_identifiers'}
+"delete,input",V N,V N,{'grpc.srcml.xml_identifiers'}
+"dialog,info,update",NM N V,V NM N,{'gimp.srcml.xml_identifiers'}
+"dump,cemd,cmd",V NM N,V NM N,{'openFrameworks.srcml.xml_identifiers'}
+"dump,frame,buffer,formats",V NM NM NPL,V NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"get,dmf,header",V NM N,V NM N,{'irrlicht.srcml.xml_identifiers'}
+"get,meta,index",V NM N,V NM N,{'Telegram.srcml.xml_identifiers'}
+"get,plane,point",V NM N,V NM N,{'ogre.srcml.xml_identifiers'}
+"gimp,canvas,rectangle,set,property",PRE NM N V N,V NM NM NM N,{'gimp.srcml.xml_identifiers'}
+"gimp,devices,check,change",PRE NPL V V,V NM NM N,{'gimp.srcml.xml_identifiers'}
+"gimp,eraser,default",PRE N NM,V NM N,{'gimp.srcml.xml_identifiers'}
+"gimp,filter,tool,set,gyroscope",PRE NM N V N,V NM NM NM N,{'gimp.srcml.xml_identifiers'}
+"gimp,image,file,get,thumbnail",PRE NM N V N,V NM NM NM N,{'gimp.srcml.xml_identifiers'}
+"gimp,param,drawable,id,init",PRE NM NM N V,V NM NM NM N,{'gimp.srcml.xml_identifiers'}
+"gimp,selection,tool,class,init",PRE NM NM N V,V NM NM NM N,{'gimp.srcml.xml_identifiers'}
+"gimp,status,bar,progress,canceled",PRE NM NM N V,NM NM NM N P,{'gimp.srcml.xml_identifiers'}
+"gimp,value,set,int32,array",PRE N V NM N,V NM NM NM D N,{'gimp.srcml.xml_identifiers'}
+"gimp,wire,compare",PRE N V,V NM N,{'gimp.srcml.xml_identifiers'}
+"gpencil,primitive,modal",NM NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"ico,load,layer",PRE V N,V NM N,{'gimp.srcml.xml_identifiers'}
+"imb,stereo3d,read,interlace",PRE NM V N,V NM D NM NM N,{'blender.srcml.xml_identifiers'}
+"is,canon",V N,V N,{'blender.srcml.xml_identifiers'}
+"layer,get,composite,mode,invoker",NM V NM NM N,V NM NM NM N,{'gimp.srcml.xml_identifiers'}
+"nla,invert,combine,value",NM V NM N,V NM NM N,{'blender.srcml.xml_identifiers'}
+"palette,poll",N V,NM N,{'blender.srcml.xml_identifiers'}
+"path,with,native,separators",N P NM NPL,NM NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"png,do,strip,channel",NM V V N,PRE V V N,{'irrlicht.srcml.xml_identifiers'}
+"png,get,row,bytes",NM V NM NPL,PRE V NM N,{'irrlicht.srcml.xml_identifiers'}
+"png,get,rows",NM V NPL,PRE V N,{'irrlicht.srcml.xml_identifiers'}
+"png,get,unknown,chunks",NM V NM NPL,PRE V NM N,{'irrlicht.srcml.xml_identifiers'}
+"png,init,palette,transformations",NM V NM NPL,PRE V NM N,{'irrlicht.srcml.xml_identifiers'}
+"png,read,idat,data",NM V NM N,PRE V NM N,{'irrlicht.srcml.xml_identifiers'}
+"pnm,load,raw,pfm",NM V NM N,V NM NM N,{'gimp.srcml.xml_identifiers'}
+"pybullet,compute,view,matrix",PRE V NM N,V NM NM N,{'bullet3.srcml.xml_identifiers'}
+"read,subframe",V N,V N,{'Telegram.srcml.xml_identifiers'}
+"render,result,exr,file,end",V NM NM NM N,V NM NM NM N,{'blender.srcml.xml_identifiers'}
+"reset,token,stats",V NM NPL,V NM N,{'Telegram.srcml.xml_identifiers'}
+"saturated,cast",NM N,V N,{'Telegram.srcml.xml_identifiers'}
+"set,add,faces,points",V V NM NPL,V NM NM N,{'bullet3.srcml.xml_identifiers'}
+"silk,bw,expander,32",NM NM N D,NM NM N D,{'Telegram.srcml.xml_identifiers'}
+"sqlite3,session,config",PRE N V,V D NM N,{'Telegram.srcml.xml_identifiers'}
+"sqlite3,walk,expr,list",PRE V NM N,V D NM NM N,{'Telegram.srcml.xml_identifiers'}
+"stmt,close",N V,V N,{'Telegram.srcml.xml_identifiers'}
+"tiff,current,tile",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"tiff,get,size,proc",NM V NM N,NM V NM N,{'opencv.srcml.xml_identifiers'}
+"unpack,texture,blend,func",V NM NM N,V NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"write,tcp,data",V NM N,V NM N,{'grpc.srcml.xml_identifiers'}
+"always,preview",VM V,NM N,{'gimp.srcml.xml_identifiers'}
+"animation,box",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"avg,1",N D,NM N,{'opencv.srcml.xml_identifiers'}
+"best,b",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"byte,count",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"compiling,contexts",V NPL,NM N,{'kdevelop.srcml.xml_identifiers'}
+"corr,qc",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"default,look",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"dst,saturation",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"element,spec",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"face,index",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"forked,iter",V N,NM N,{'blender.srcml.xml_identifiers'}
+"identifier,quark",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"idx,u",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"inv,unit,scale",NM NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"is,a,empty",V DT N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"label,casefold",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"line,1,grad",NM D N,NM NM N,{'gimp.srcml.xml_identifiers'}
+"melanin,ofs",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"nbr,gaps",NM NPL,NM N,{'blender.srcml.xml_identifiers'}
+"nearest,point",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"need,fallback",V N,NM N,{'blender.srcml.xml_identifiers'}
+"neighbor,pos",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"new,image,height",NM NM N,NM NM N,{'gimp.srcml.xml_identifiers'}
+"new,order",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"num,primes",NM NPL,NM N,{'Telegram.srcml.xml_identifiers'}
+"num,vec,per,segment",NM N P N,NM NM NM N,{'Telegram.srcml.xml_identifiers'}
+"num,verts,in,a",NM NPL P N,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"out,d,g",N NM NM,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"paint,radio",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"param,def",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"progress,out",V N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"r,hdr",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"raw,nor",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"rcp,len,2",NM N D,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"rem,f",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"rgb,real",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"root,ptr",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"selection,bounds",NM NPL,NM N,{'gimp.srcml.xml_identifiers'}
+"source,index",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"sz,joint,ranges",NM NM NPL,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"target,chars",NM NPL,NM N,{'grpc.srcml.xml_identifiers'}
+"text,chopped,2",N NM D,NM NM N,{'swift.srcml.xml_identifiers'}
+"tmp,vec",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"to,xyz",P N,NM N,{'bullet3.srcml.xml_identifiers'}
+"txt,alias",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"update,area",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"v,proj,axis",NM NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"wat,id",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"within,vertically",P VM,NM N,{'gimp.srcml.xml_identifiers'}
+"worst,score",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"accelerometer,data",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+addr,N,N,{'grpc.srcml.xml_identifiers'}
+"build,time,minor",NM NM N,NM NM N,{'gimp.srcml.xml_identifiers'}
+"convex,shapes",NM NPL,NM N,{'bullet3.srcml.xml_identifiers'}
+"current,median",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"curvatures,height",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+default,N,N,{'gimp.srcml.xml_identifiers'}
+"default,open",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"dest,points",NM NPL,NM N,{'gimp.srcml.xml_identifiers'}
+"destroy,with,parent",V P N,NM NM N,{'gimp.srcml.xml_identifiers'}
+dispose,N,N,{'gimp.srcml.xml_identifiers'}
+"down,sample",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"echo,path,change",V NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+esa,N,N,{'irrlicht.srcml.xml_identifiers'}
+"fine,priority",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"first,type,label",NM NM N,NM NM N,{'gimp.srcml.xml_identifiers'}
+frame,N,N,{'Telegram.srcml.xml_identifiers'}
+"frame,pixel,coords",NM NM NPL,NM NM N,{'blender.srcml.xml_identifiers'}
+"full,path",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"in,buffer",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"l,b,layer",NM NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"line,index,mask,len",NM NM NM N,NM NM NM N,{'blender.srcml.xml_identifiers'}
+"mapped,color",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"n,layers",NM NPL,NM N,{'gimp.srcml.xml_identifiers'}
+"n,vector",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"next,func",NM N,DT N,{'blender.srcml.xml_identifiers'}
+"on,connect",P N,NM N,{'grpc.srcml.xml_identifiers'}
+"out,buf",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"out,table",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+overlap,N,N,{'Telegram.srcml.xml_identifiers'}
+"own,flags",NM NPL,NM N,{'blender.srcml.xml_identifiers'}
+"p,global,info,32",PRE NM N D,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"pass,machine,instructions",NM NM NPL,NM NM N,{'ogre.srcml.xml_identifiers'}
+"pi,hash",PRE N,NM N,{'Telegram.srcml.xml_identifiers'}
+"point,index",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"print,t",V N,NM N,{'gimp.srcml.xml_identifiers'}
+radius,N,N,{'gimp.srcml.xml_identifiers'}
+rets,NPL,N,{'blender.srcml.xml_identifiers'}
+"save,dual,cells",V NM NPL,NM NM N,{'ogre.srcml.xml_identifiers'}
+"secondary,range",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"size,on,first,use",N P NM N,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"speech,in",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+strength,N,N,{'blender.srcml.xml_identifiers'}
+"table,2,id",N D N,NM NM N,{'gimp.srcml.xml_identifiers'}
+"time,range",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"want,x",V N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"z,p,i",NM NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"zoom,x,y",NM N N,NM NM N,{'blender.srcml.xml_identifiers'}
+ambient,N,N,{'openFrameworks.srcml.xml_identifiers'}
+"average,in,bucket,used,slot,count",N P NM NM NM N,NM NM NM NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"bitmap,data,size",NM NM N,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"bm,log",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"bounding,radius",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"canvas,item",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"char,strings",NM NPL,NM N,{'bullet3.srcml.xml_identifiers'}
+"colored,count",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"component,type",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+creds,NPL,N,{'grpc.srcml.xml_identifiers'}
+"crop,node",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"debug,policy",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"default,instance,void",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"delay,agnostic,enabled",NM N V,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"depth,cb",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"depth,stencil,as,texture",NM N P N,NM NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"detect,leaks",V NPL,NM N,{'grpc.srcml.xml_identifiers'}
+"edit,count",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"eglew,android,frame,buffer,target",PRE PRE NM NM N,NM NM NM NM N,{'blender.srcml.xml_identifiers'}
+"eglew,create,platform,window,surface",PRE V NM NM N,NM NM NM NM N,{'blender.srcml.xml_identifiers'}
+"eglew,khr,stream,fifo",PRE PRE NM N,NM NM NM N,{'blender.srcml.xml_identifiers'}
+"enabled,subdevices",NM NPL,NM N,{'openFrameworks.srcml.xml_identifiers'}
+flag,N,N,{'blender.srcml.xml_identifiers'}
+"free,cell",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"glew,index,mask",PRE NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"glew,render,mode",PRE NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"glew,validate,program,pipeline",PRE V NM N,NM NM NM N,{'ogre.srcml.xml_identifiers'}
+"h,wnd",N NM,NM N,{'irrlicht.srcml.xml_identifiers'}
+"height,int",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"img,buffer,original",NM N NM,NM NM N,{'ogre.srcml.xml_identifiers'}
+"index,data",NM NPL,NM N,{'ogre.srcml.xml_identifiers'}
+"index,to,loc,format",N P NM N,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"is,indirect,result",V NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"is,partial",V N,NM N,{'opencv.srcml.xml_identifiers'}
+"key,sym",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"layer,mask,source,node",NM NM NM N,NM NM NM N,{'gimp.srcml.xml_identifiers'}
+"link,name",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"m,num,visual,shapes,copied",PRE NM NM NM N,NM NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"m,post,fix",PRE NM N,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"m,remove,user,data,response,args",PRE NM NM NM NM NPL,NM NM NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"m,shadow,receiver,pass",PRE NM NM N,NM NM NM N,{'ogre.srcml.xml_identifiers'}
+"m,sky,box,orientation",PRE NM NM N,NM NM NM N,{'ogre.srcml.xml_identifiers'}
+"m,sky,plane,render,queue",PRE NM NM NM N,NM NM NM NM N,{'ogre.srcml.xml_identifiers'}
+"m,transform,change,args",PRE NM NM NPL,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"m,vs,out,light,position",PRE NM NM NM N,NM NM NM NM N,{'ogre.srcml.xml_identifiers'}
+"nav,visible",N NM,NM N,{'bullet3.srcml.xml_identifiers'}
+"num,axis,events",NM NM NPL,NM NM N,{'gimp.srcml.xml_identifiers'}
+"num,body,parts",NM NM NPL,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"num,cols",NM NPL,NM N,{'blender.srcml.xml_identifiers'}
+"num,groups",NM NPL,NM N,{'irrlicht.srcml.xml_identifiers'}
+"num,light",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"num,tess,face,data",NM NM NM N,NM NM NM N,{'blender.srcml.xml_identifiers'}
+"number,start",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"other,side,x",NM NM N,DT NM N,{'gimp.srcml.xml_identifiers'}
+"packet,sent",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+pickup,N,N,{'irrlicht.srcml.xml_identifiers'}
+"pixel,width",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"proof,profile",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+"q,tail",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"rc,identity",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"replacement,length",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"rotate,desc",NM N,NM N,{'gimp.srcml.xml_identifiers'}
+samplers,NPL,N,{'ogre.srcml.xml_identifiers'}
+"selection,width,label",NM NM N,NM NM N,{'gimp.srcml.xml_identifiers'}
+"session,ticket,key",NM NM N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"spline,max,len",NM NM N,NM NM N,{'gimp.srcml.xml_identifiers'}
+"step,no",NM N,NM DT,{'bullet3.srcml.xml_identifiers'}
+"tot,channel",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"tot,elem",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"user,hook,3",NM N D,NM NM N,{'blender.srcml.xml_identifiers'}
+"video,chunk,cb",NM NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"x,dnd,type,list",NM NM NM N,NM NM NM N,{'blender.srcml.xml_identifiers'}
+"x,origin",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"x,scale",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"ya,bottom",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"zero,plane,res",NM NM N,PR NM N,{'openFrameworks.srcml.xml_identifiers'}
+"area,info,dialog,t",NM NM NM N,NM NM NM N,{'gimp.srcml.xml_identifiers.idents'}
+"child,location",NM N,NM N,{'gimp.srcml.xml_identifiers.idents'}
+"command,t",NM N,NM N,{'gimp.srcml.xml_identifiers.idents'}
+"d,obj,points",NM NM NPL,NM NM N,{'gimp.srcml.xml_identifiers.idents'}
+"dialog,elements",NM NPL,NM N,{'gimp.srcml.xml_identifiers.idents'}
+"check,writeable",V NM,V N,{'grpc.srcml.xml_identifiers'}
+"get,longitude",V N,V N,{'grpc.srcml.xml_identifiers'}
+"atn,state",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"generate,rule,bypass,transitions",V NM NM NPL,NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"inertial,frame",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"trim,parse,trees",V NM NPL,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"bound,port",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"comparison,value",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"added,unicode,smp",NM NM N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"completion,handler,i,unary,response,client,callback",NM N NM NM NM NM N,NM NM NM NM NM NM N,{'grpc.srcml.xml_identifiers'}
+"file,descriptor,proto",NM NM N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"time,spec",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+uuid,N,N,{'antlr4.srcml.xml_identifiers'}
+"call,error,extensions",NM NM NPL,NM NM N,{'grpc.srcml.xml_identifiers'}
+"cpp,generator,services",NM NM NPL,NM NM N,{'grpc.srcml.xml_identifiers'}
+"default,ssl,roots,override",NM NM NPL NM,NM NM NM N,{'grpc.srcml.xml_identifiers'}
+"deserialization,context",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"main,class",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"mono,p,invoke,callback,attribute",NM NM NM NM N,NM NM NM NM N,{'grpc.srcml.xml_identifiers'}
+num,N,N,{'grpc.srcml.xml_identifiers'}
+"rule,version,attribute",NM NM N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"server,safe,handle",NM NM N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"add,bezier,curve",V NM N,V NM N,{'bullet3.srcml.xml_identifiers'}
+"add,log,to,stream",V N P N,V N P N,{'Telegram.srcml.xml_identifiers'}
+"add,object,index",V NM N,V NM N,{'blender.srcml.xml_identifiers'}
+"adjusted,gradient",NM N,V N,{'calligra.srcml.xml_identifiers'}
+"all,open,files,string",DT NM NM N,DT NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"append,sequence",V N,V N,{'kdevelop.srcml.xml_identifiers'}
+"argb,subtract,row,c",N V NM N,PRE V NM NM N,{'Telegram.srcml.xml_identifiers'}
+"aud,sound,envelope",PRE NM N,V NM N,{'blender.srcml.xml_identifiers'}
+"b3,push,profile,timing",PRE V NM N,PRE D V NM N,{'bullet3.srcml.xml_identifiers'}
+"calc,lut",V N,V N,{'opencv.srcml.xml_identifiers'}
+"check,gl,support",V NM N,V V N,{'openFrameworks.srcml.xml_identifiers'}
+"check,sign",V N,V N,{'QuantLib.srcml.xml_identifiers'}
+"check,t",V N,V N,{'QuantLib.srcml.xml_identifiers'}
+"choose,document",V N,V N,{'kdevelop.srcml.xml_identifiers'}
+"clear,active,id",V NM N,V NM N,{'bullet3.srcml.xml_identifiers'}
+"compare,inverse,and,forward,dynamics",V NM CJ NM NPL,V NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"context,url,list",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"convert,to,php,namespace",V P NM N,V P NM N,{'grpc.srcml.xml_identifiers'}
+"create,duplicate,change,id",V NM NM N,V NM NM N,{'calligra.srcml.xml_identifiers'}
+"create,in,indices",V NM NPL,V P N,{'ogre.srcml.xml_identifiers'}
+"create,metadata,array",V NM N,V NM N,{'grpc.srcml.xml_identifiers'}
+"create,sub,buffer",V NM N,V NM N,{'opencv.srcml.xml_identifiers'}
+"current,slide",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+curves,NPL,V,{'QuantLib.srcml.xml_identifiers'}
+"declare,component",V N,V N,{'kdevelop.srcml.xml_identifiers'}
+"dividend,discount,mother",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"do,print,after",V V P,V V P,{'swift.srcml.xml_identifiers'}
+"effective,style",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"emit,address",V N,V N,{'swift.srcml.xml_identifiers'}
+"enable,background,opacity",V NM N,V NM N,{'calligra.srcml.xml_identifiers'}
+"enable,materials",V NPL,V N,{'openFrameworks.srcml.xml_identifiers'}
+"extract,component",V N,V N,{'QuantLib.srcml.xml_identifiers'}
+fence,N,V,{'opencv.srcml.xml_identifiers'}
+"find,hashable,base,type",V NM NM N,V NM NM N,{'swift.srcml.xml_identifiers'}
+float,N,V,{'bullet3.srcml.xml_identifiers'}
+"follow,component",V N,V N,{'swift.srcml.xml_identifiers'}
+"generate,service,descriptor,property",V NM NM N,V NM NM N,{'grpc.srcml.xml_identifiers'}
+"get,constant,reference,for,protocol,descriptor",V NM N P NM N,V NM N P NM N,{'swift.srcml.xml_identifiers'}
+"get,controller,transform",V NM N,V NM N,{'bullet3.srcml.xml_identifiers'}
+"get,default,atlasing,attributes",V NM NM NPL,V NM NM N,{'ogre.srcml.xml_identifiers'}
+"get,diffuse,colour",V NM N,V NM N,{'ogre.srcml.xml_identifiers'}
+"get,jf",V N,V N,{'blender.srcml.xml_identifiers'}
+"get,msg,send,super,ty",V NM NM NM N,V NM NM NM N,{'swift.srcml.xml_identifiers'}
+"get,red,adjust,2",V NM N D,V NM N D,{'ogre.srcml.xml_identifiers'}
+"get,related,view,data,row,double",V NM NM NM N NM,V NM NM NM NM N,{'grpc.srcml.xml_identifiers'}
+"get,top,border,size",V NM NM N,V NM NM N,{'ogre.srcml.xml_identifiers'}
+"get,working,directory",V NM N,V NM N,{'irrlicht.srcml.xml_identifiers'}
+"get,xcr,0",V N D,V N D,{'Telegram.srcml.xml_identifiers'}
+"global,scope",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"grpc,chttp2,mark,stream,writable",PRE PRE V N NM,V NM NM NM NM N,{'grpc.srcml.xml_identifiers'}
+"grpc,json,writer,value,string",PRE NM NM NM N,V NM NM NM N,{'grpc.srcml.xml_identifiers'}
+"grpc,sock,addr,make,wildcards",PRE NM N V NPL,V NM NM NM N,{'grpc.srcml.xml_identifiers'}
+"handle,if",V CJ,V N,{'ogre.srcml.xml_identifiers'}
+"has,composite,op",V NM N,V NM N,{'calligra.srcml.xml_identifiers'}
+"has,view,relative,texture,coordinate,generation",V NM NM NM NM N,V NM NM NM NM N,{'ogre.srcml.xml_identifiers'}
+"in,scc",P N,P N,{'swift.srcml.xml_identifiers'}
+"inflation,leg,npv",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"initialize,dual,graph",V NM N,V NM N,{'bullet3.srcml.xml_identifiers'}
+"is,generic,type,disambiguating,token",V NM NM NM N,V NM NM NM N,{'swift.srcml.xml_identifiers'}
+"is,stdlib,module",V NM N,V NM N,{'swift.srcml.xml_identifiers'}
+"is,sum,supported",V N V,V NM N,{'opencv.srcml.xml_identifiers'}
+"is,valid,trailing,closure",V NM NM N,V NM NM N,{'swift.srcml.xml_identifiers'}
+"last,gradient",NM N,DT N,{'QuantLib.srcml.xml_identifiers'}
+"lower,boundary,factor",NM NM N,V NM N,{'QuantLib.srcml.xml_identifiers'}
+"max,draw,buffers",NM NM NPL,V NM N,{'openFrameworks.srcml.xml_identifiers'}
+"maximize,all",V DT,V DT,{'openFrameworks.srcml.xml_identifiers'}
+"node,find,output,by,name",N V N P N,NM NM NM NM N,{'blender.srcml.xml_identifiers'}
+"notify,touch,down",V NM N,V V N,{'openFrameworks.srcml.xml_identifiers'}
+"of,to,binary",PRE P N,P NM N,{'openFrameworks.srcml.xml_identifiers'}
+"optimize,identity,cast,composition",V NM NM N,V NM NM N,{'swift.srcml.xml_identifiers'}
+"presentation,start,from,first",N V P NM,NM NM NM N,{'calligra.srcml.xml_identifiers'}
+"process,helper",NM N,V N,{'QuantLib.srcml.xml_identifiers'}
+"read,element,text,span",V NM NM N,V NM NM N,{'calligra.srcml.xml_identifiers'}
+"read,pass",V N,V N,{'irrlicht.srcml.xml_identifiers'}
+"read,text,file",V NM N,V NM N,{'ogre.srcml.xml_identifiers'}
+"reapply,filter",V N,V N,{'calligra.srcml.xml_identifiers'}
+"register,with,volatility,spread",V P NM N,V P NM N,{'QuantLib.srcml.xml_identifiers'}
+"remap,nearest,neighbor",V NM N,V NM N,{'opencv.srcml.xml_identifiers'}
+"remove,imported,parent,contexts",V NM NM NPL,V NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"render,text",V N,V N,{'bullet3.srcml.xml_identifiers'}
+"repress,ref,at,loc",V N P N,V N P N,{'swift.srcml.xml_identifiers'}
+"resize,linear,open,cv",V NM NM N,V NM NM N,{'opencv.srcml.xml_identifiers'}
+"resize,nearest,neighbor",V NM N,V NM N,{'opencv.srcml.xml_identifiers'}
+"rgb,2,rgb565",N P N,V D N D,{'opencv.srcml.xml_identifiers'}
+"rgbx,2,bgrx",N P N,V D N,{'opencv.srcml.xml_identifiers'}
+"sanitize,path",V N,V N,{'kdevelop.srcml.xml_identifiers'}
+"save,as,quadratic,png",V P NM N,V P NM N,{'calligra.srcml.xml_identifiers'}
+"send,serial,config",V NM N,V NM N,{'openFrameworks.srcml.xml_identifiers'}
+"session,config",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"set,custom,uniform,1,f",V NM N D NM,V NM NM D N,{'openFrameworks.srcml.xml_identifiers'}
+"set,destructor,callback",V NM N,V NM N,{'opencv.srcml.xml_identifiers'}
+"set,display,index",V NM N,V NM N,{'ogre.srcml.xml_identifiers'}
+"set,frame,pen",V NM N,V NM N,{'calligra.srcml.xml_identifiers'}
+"set,invert",V N,V N,{'antlr4.srcml.xml_identifiers'}
+"set,layer,texture,name",V NM NM N,V NM NM N,{'ogre.srcml.xml_identifiers'}
+"set,tiling",V N,V N,{'ogre.srcml.xml_identifiers'}
+"setup,bounding,box,vertices",V NM NM NPL,V NM NM N,{'ogre.srcml.xml_identifiers'}
+"sha256,hash",NM N,V D N,{'irrlicht.srcml.xml_identifiers'}
+"shader,data,to,shader,globals",NM NPL P NM NPL,NM NM NM NM N,{'blender.srcml.xml_identifiers'}
+"status,icon",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"str,array,len",NM NM N,V NM N,{'bullet3.srcml.xml_identifiers'}
+"stroke,attribute,alpha,get",NM NM N V,V NM NM N,{'blender.srcml.xml_identifiers'}
+"tegra,morph,init",PRE N V,V NM N,{'opencv.srcml.xml_identifiers'}
+"tessellate,to,mesh",V P N,V P N,{'openFrameworks.srcml.xml_identifiers'}
+"tool,view,position",NM NM N,V NM N,{'kdevelop.srcml.xml_identifiers'}
+"transform,path",V N,V N,{'QuantLib.srcml.xml_identifiers'}
+"two,factor,response",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"unload,textures",V NPL,V N,{'openFrameworks.srcml.xml_identifiers'}
+"update,mouse,pos",V NM N,V NM N,{'calligra.srcml.xml_identifiers'}
+"v,url,encode",PRE N V,PRE V N,{'bullet3.srcml.xml_identifiers'}
+"verifier,get,mapping",N V N,NM N V,{'grpc.srcml.xml_identifiers'}
+"visit,sil,argument",V NM N,V NM N,{'swift.srcml.xml_identifiers'}
+"widget,destroyed",N V,N P,{'kdevelop.srcml.xml_identifiers'}
+"with,cms,leg,rule",P NM NM N,P NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"with,market,rate,accuracy",P NM NM N,P NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"with,rate,bound",P NM N,NM N P,{'QuantLib.srcml.xml_identifiers'}
+"worker,thread,wait",NM N V,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"world,to,screen",N P N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"write,node,materials",V NM NPL,V NM N,{'irrlicht.srcml.xml_identifiers'}
+"x,tilt",NM N,PRE V,{'calligra.srcml.xml_identifiers'}
+"active,tool,id",NM NM N,NM NM N,{'calligra.srcml.xml_identifiers'}
+"aead,crypter,seal",NM NM N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"anchor,name",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"angle,in,radian",N P N,NM NM N,{'calligra.srcml.xml_identifiers'}
+attrs,NPL,N,{'calligra.srcml.xml_identifiers'}
+"base,transform",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"best,style",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"bind,matrix",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"binormal,type",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"byte,src",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"cam,rot,z",NM NM N,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"cap,times",NM NPL,NM N,{'QuantLib.srcml.xml_identifiers'}
+"cb,result",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"cell,cursor",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+ch,N,N,{'grpc.srcml.xml_identifiers'}
+"check,next",V N,NM DT,{'kdevelop.srcml.xml_identifiers'}
+"clang,can,ty",PRE NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"clip,dist,bug",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"cms,pricer",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"col,length,left",NM NM N,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"cone,translation",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"control,points",NM NPL,NM N,{'calligra.srcml.xml_identifiers'}
+"coterminal,model",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"cp,1254",N D,NM N,{'calligra.srcml.xml_identifiers'}
+"current,charuco,corners",NM NM NPL,NM NM N,{'opencv.srcml.xml_identifiers'}
+"current,sequence",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"depot,message,start",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"drift,term",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"dst,type,1",NM N D,NM NM N,{'opencv.srcml.xml_identifiers'}
+"error,mark,type",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"event,0",N D,NM N,{'QuantLib.srcml.xml_identifiers'}
+"expect,rows",NM NPL,NM N,{'opencv.srcml.xml_identifiers'}
+"extra,inhabitants,mask",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"f,cos",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"f,curve,found",NM N V,NM NM N,{'ogre.srcml.xml_identifiers'}
+"f,m,m",NM NM N,NM NM NM,{'kdevelop.srcml.xml_identifiers'}
+"f,ptr,out",PRE NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"fast,load,success",VM V N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"feature,iterator",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"field,offset,vector",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"fixed,cam",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"fixed,leg,frequency",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"from,local,aabb,min",P NM NM N,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"future,active,doc",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"have,mask",V N,NM N,{'opencv.srcml.xml_identifiers'}
+"img,stub",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"img,type",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"inst,results",NM NPL,NM N,{'swift.srcml.xml_identifiers'}
+"inv,flight,k,2",NM NM N D,NM NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"inverted,direction",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"is,node,a,left,child,leaf",V N DT NM NM N,NM NM NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"is,trained",V V,NM N,{'opencv.srcml.xml_identifiers'}
+"items,per,second",NPL P N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"joint,start",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"key,events,copy",NM NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"kinects,copy",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"last,token,was,delete,or,default",NM N V N CJ N,DT NM NM NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"layer,sizes",NM NPL,NM N,{'opencv.srcml.xml_identifiers'}
+"lhs,component",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"line,y",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"link,url",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"lower,tail",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"mapped,labels",NM NPL,NM N,{'opencv.srcml.xml_identifiers'}
+"max,basket",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"max,input,size",NM NM N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"method,index",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"mod,iface",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"movie,media,handler",NM NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"n,repeats",NM NPL,NM N,{'opencv.srcml.xml_identifiers'}
+"nd,formula",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"new,sil,type",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"next,fragment,expression",NM NM N,DT NM N,{'kdevelop.srcml.xml_identifiers'}
+"noise,1",N D,NM N,{'ogre.srcml.xml_identifiers'}
+"num,metadata",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"number,of,joysticks",N P NPL,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"numbering,path",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"obj,proj",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"ori,w",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"overriden,function,it",NM NM N,NM NM PR,{'kdevelop.srcml.xml_identifiers'}
+"pai,arg",NM N,NM N,{'swift.srcml.xml_identifiers'}
+passphrase,N,N,{'openFrameworks.srcml.xml_identifiers'}
+"pd,sum",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"platform,string",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"present,scaling",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"prev,num,hooks",NM NM NPL,NM NM N,{'grpc.srcml.xml_identifiers'}
+"prev,signal,bar,count",NM NM NM N,NM NM NM N,{'Telegram.srcml.xml_identifiers'}
+"prim,type",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"processing,level",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"rectangle,index",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"repl,module",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"request,bytes",NM NPL,NM N,{'grpc.srcml.xml_identifiers'}
+"rt,stream,ptr",NM NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"running,log,average",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"s,tracking,system,name",PRE NM NM N,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"simple,fn,ty",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"sin,rot,w",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"source,ty",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"src,file,info",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"src,start,idx",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"ssl,creds",NM NPL,NM N,{'grpc.srcml.xml_identifiers'}
+"static,rect",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"step,size",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"step,x",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"str,args",NM NPL,NM N,{'kdevelop.srcml.xml_identifiers'}
+"sub,start",NM N,N N,{'openFrameworks.srcml.xml_identifiers'}
+"supported,style",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"tab,overlap",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"tagged,resources",NM NPL,NM N,{'calligra.srcml.xml_identifiers'}
+"temp,attrs",NM NPL,NM N,{'swift.srcml.xml_identifiers'}
+"tranched,loss,after",NM N P,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"transform,unique,id",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"ui,index",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"use,mat,dirs",V NM NPL,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"val,size",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"value,x",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"win,error",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"x,2",N D,NM N,{'bullet3.srcml.xml_identifiers'}
+"a,pos",PRE N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"abs,deadline,n,sec,value",NM NM NM NM N,NM NM NM NM N,{'grpc.srcml.xml_identifiers'}
+"all,factors",DT NPL,DT N,{'QuantLib.srcml.xml_identifiers'}
+"alternative,cache,name",NM NM N,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"ambient,coefficient",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"animations,data",NM NPL,NM N,{'calligra.srcml.xml_identifiers'}
+"array,struct,value",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"b,d,c",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"b,flip,horizontally",PRE V VM,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"b,multi,fullscreen",PRE NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"bibliography,type",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"block,nr",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"bone,positions",NM NPL,NM N,{'ogre.srcml.xml_identifiers'}
+"bridged,value,fun,arg",NM NM NM N,NM NM NM N,{'swift.srcml.xml_identifiers'}
+"brush,hatch",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"buf,num",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"built,url",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"byte,array,view",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"c,problem",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"cache,file",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"color,map",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"connection,state",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"current,root",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"d,mat",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"default,auto,entry",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"default,mat,x",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"desktop,size",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"discount,factor",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"do,caps",V NPL,NM N,{'QuantLib.srcml.xml_identifiers'}
+"docking,area",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"driver,type,name",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"dst,map,2",NM N D,NM NM N,{'opencv.srcml.xml_identifiers'}
+"edit,length",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"end,snapshot",NM N,NM N,{'swift.srcml.xml_identifiers'}
+eps,N,N,{'QuantLib.srcml.xml_identifiers'}
+"err,ret",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"existing,symlink",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"f,tolerance",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"folder,names",NM NPL,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"force,direct",V N,NM N,{'kdevelop.srcml.xml_identifiers'}
+func,N,N,{'opencv.srcml.xml_identifiers'}
+"gauss,lobatto,eps",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+grouping,N,N,{'grpc.srcml.xml_identifiers'}
+"handle,pos",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"html,file",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"i,var,initializer",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+in,N,N,{'bullet3.srcml.xml_identifiers'}
+"index,tensor",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"inner,angle",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+institution,N,N,{'calligra.srcml.xml_identifiers'}
+"int,hex,string",NM NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"is,friend",V N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"is,v",V NM,NM N,{'swift.srcml.xml_identifiers'}
+"is,vaild",V NM,NM N,{'ogre.srcml.xml_identifiers'}
+key,N,N,{'kdevelop.srcml.xml_identifiers'}
+"key,frame,2",NM N D,NM NM N,{'ogre.srcml.xml_identifiers'}
+labels,NPL,N,{'opencv.srcml.xml_identifiers'}
+"len,r",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"light,dim",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"literal,bucket",NM N,NM N,{'swift.srcml.xml_identifiers'}
+locking,V,N,{'grpc.srcml.xml_identifiers'}
+"max,scale,f",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"min,error",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"mkt,factors",NM NPL,NM N,{'QuantLib.srcml.xml_identifiers'}
+"n,shininess",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"next,line",NM N,DT N,{'kdevelop.srcml.xml_identifiers'}
+"num,active,contexts",NM NM NPL,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"num,factors",NM NPL,NM N,{'QuantLib.srcml.xml_identifiers'}
+"num,files",NM NPL,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"operator,method,decls",NM NM NPL,NM NM N,{'swift.srcml.xml_identifiers'}
+"output,array",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"palette,size",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"parent,field",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+parsing,V,N,{'calligra.srcml.xml_identifiers'}
+"pem,key",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"pen,loaded",N V,NM N,{'calligra.srcml.xml_identifiers'}
+"previous,index",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"previous,initial,value",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"previous,is,valid",N V NM,NM NM N,{'calligra.srcml.xml_identifiers'}
+"print,label,flag",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+progressive,N,N,{'blender.srcml.xml_identifiers'}
+"project,file",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"projects,dir",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+r,N,N,{'kdevelop.srcml.xml_identifiers'}
+"random,walk",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"rate,pointer",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"read,operation",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"reference,range",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"relative,contrast",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"res,width",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"reserve,fn",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"return,path",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"rot,axis",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"rotation,per,second",N P N,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"scene,node,type,name",NM NM NM N,NM NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"separator,color",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"server,list",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+settings,NPL,N,{'openFrameworks.srcml.xml_identifiers'}
+"sibling,info",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"size,contents",NM NPL,NM N,{'bullet3.srcml.xml_identifiers'}
+"sorted,indices,buf",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"src,gradient",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"start,dirs",NM NPL,NM N,{'kdevelop.srcml.xml_identifiers'}
+"start,slot",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"start,up,fix,cost",NM NM NM N,NM NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"subroutine,slot,name",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"suppress,file",V N,NM N,{'ogre.srcml.xml_identifiers'}
+target,N,N,{'antlr4.srcml.xml_identifiers'}
+"tbl,index",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"tick,freq",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"top,dir",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"underlying,fx,correlation",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"undiscounted,amount",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+usage,N,N,{'openFrameworks.srcml.xml_identifiers'}
+"use,shadows,1",V NPL D,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"use,tabs",V NPL,NM N,{'kdevelop.srcml.xml_identifiers'}
+"utf8,size",NM N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"validate,on",V P,NM N,{'irrlicht.srcml.xml_identifiers'}
+"write,root",V N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"y,in",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"yield,mvs",NM NPL,NM NM N,{'swift.srcml.xml_identifiers'}
+"action,view,show,master,pages",NM N V NM NPL,NM NM NM NM N,{'calligra.srcml.xml_identifiers'}
+"b,loop",PRE N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+breakpoint,N,N,{'kdevelop.srcml.xml_identifiers'}
+buffers,NPL,N,{'Telegram.srcml.xml_identifiers'}
+"calibration,phase",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"cat,risk",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"chosen,overrides",NM NPL,NM N,{'kdevelop.srcml.xml_identifiers'}
+"color,conversion,system",NM NM N,NM NM N,{'calligra.srcml.xml_identifiers'}
+core,N,N,{'QuantLib.srcml.xml_identifiers'}
+"current,scene,node",NM NM N,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+file,N,N,{'swift.srcml.xml_identifiers'}
+"float,day,counter",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"footnotes,position",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"group,boxes",NM NPL,NM N,{'kdevelop.srcml.xml_identifiers'}
+"handled,boxes",NM NPL,NM N,{'swift.srcml.xml_identifiers'}
+"history,action",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"im,out,shape",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"invert,success",V N,NM N,{'swift.srcml.xml_identifiers'}
+"is,bridged,argument",V NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"is,return,bridged",V N NM,NM NM N,{'swift.srcml.xml_identifiers'}
+"keep,aspect",V N,NM N,{'calligra.srcml.xml_identifiers'}
+"last,saved,step",NM NM N,DT NM N,{'QuantLib.srcml.xml_identifiers'}
+locations,NPL,N,{'QuantLib.srcml.xml_identifiers'}
+"m,annotation",PRE N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"m,contact,motion,1",PRE NM N D,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"m,execute,on,host",PRE V P N,NM NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"m,first,render,queue",PRE NM NM N,NM NM NM N,{'ogre.srcml.xml_identifiers'}
+"m,gpu,rays",PRE NM NPL,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"m,is,indx,present",PRE V NM N,NM NM NM N,{'opencv.srcml.xml_identifiers'}
+"m,last,changed,location",PRE NM NM N,NM DT NM N,{'kdevelop.srcml.xml_identifiers'}
+"m,line,dash,offset",PRE NM NM N,NM NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"m,paste,mode",PRE NM N,NM NM N,{'calligra.srcml.xml_identifiers'}
+"m,reference",PRE N,NM N,{'bullet3.srcml.xml_identifiers'}
+"m,sbuf",PRE N,NM N,{'ogre.srcml.xml_identifiers'}
+"m,text,types",PRE NM NPL,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"m,weaver",PRE N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"m,window,width",PRE NM N,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"m,worker",PRE N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"m,zoom,controller",PRE NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"max,buffer,size",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"max,file,open",NM N NM,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"max,width",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"max,work,group,size",NM NM NM N,NM NM NM N,{'opencv.srcml.xml_identifiers'}
+mtx,N,N,{'opencv.srcml.xml_identifiers'}
+"multiple,occurences",NM NPL,NM N,{'calligra.srcml.xml_identifiers'}
+"n,d",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"new,strokes",NM NPL,NM N,{'calligra.srcml.xml_identifiers'}
+"new,y",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"nonce,length",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"num,active,tris",NM NM NPL,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"number,elementary,vegas",NM NM NPL,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"odf,symbol,type",NM NM N,NM NM N,{'calligra.srcml.xml_identifiers'}
+"reduction,indices",NM NPL,NM N,{'opencv.srcml.xml_identifiers'}
+"ref,point,offset,percent",NM NM NM N,NM NM NM N,{'calligra.srcml.xml_identifiers'}
+"replace,text,context",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+resamplers,NPL,N,{'Telegram.srcml.xml_identifiers'}
+"risky,annuity",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"row,limit",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"script,event,action,factories",NM NM NM NPL,NM NM NM N,{'calligra.srcml.xml_identifiers'}
+"shift,values",NM NPL,NM N,{'QuantLib.srcml.xml_identifiers'}
+"show,tags",V NPL,NM N,{'blender.srcml.xml_identifiers'}
+sprites,NPL,N,{'irrlicht.srcml.xml_identifiers'}
+stack,N,N,{'grpc.srcml.xml_identifiers'}
+"struct,ty",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"sub,module,name,visibility,pairs",NM NM NM NM NPL,NM NM NM NM N,{'swift.srcml.xml_identifiers'}
+then,N,N,{'swift.srcml.xml_identifiers'}
+"tlv,symbols",NM NPL,NM N,{'swift.srcml.xml_identifiers'}
+"trade,price",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"unregistered,request,matcher",NM NM N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"use,atm,spread",V NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"val,32",N D,NM N,{'opencv.srcml.xml_identifiers'}
+"value,hash",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+variables,NPL,N,{'QuantLib.srcml.xml_identifiers'}
+"w,width",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"weights,multipliers",NM NPL,NM N,{'opencv.srcml.xml_identifiers'}
+"whole,regexp",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"z,weight",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"abc,opt",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"accessor,conformance,info",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"address,lowering",N V,NM N,{'swift.srcml.xml_identifiers'}
+"apply,rewriter",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"ares,dns,resolver",NM NM N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"array,count,propagation",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+attribute,N,N,{'openFrameworks.srcml.xml_identifiers'}
+"background,parser,private",NM N NM,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"basket,payoff",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"bt,collision,shape",PRE NM N,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"bt,deformable,contact,constraint",PRE NM NM N,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"bt,material",PRE N,NM N,{'bullet3.srcml.xml_identifiers'}
+"c,animated,mesh,scene,node",PRE NM NM NM N,NM NM NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"c,archive,loader,tar",PRE NM N NM,NM NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"c,at,background,color",PRE NM NM N,NM NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"c,at,font",PRE NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"c,at,grayscale",PRE NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"c,burning,shader,raster,reference",PRE NM NM NM N,NM NM NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"c,d3d9,render,target",PRE NM NM N,NM NM NM NM NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"c,file,read,callback",PRE NM NM N,NM NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"c,http2,connector",PRE NM N,NM NM NM N,{'grpc.srcml.xml_identifiers'}
+"c,image",PRE N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"c,image,writer,jpg",PRE NM N NM,NM NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"c,skinned,mesh",PRE NM N,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"camera,data",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"caplet,variance,curve",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"change,scroll",V N,NM N,{'calligra.srcml.xml_identifiers'}
+"clause,matrix",NM N,NM N,{'swift.srcml.xml_identifiers'}
+clock,N,N,{'openFrameworks.srcml.xml_identifiers'}
+"cmd,output,operation,type",NM NM NM N,NM NM NM N,{'ogre.srcml.xml_identifiers'}
+"code,generator,private",NM N NM,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"color,map",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"combine,paint,mask,to,canvas,buffer,to,paint,buf,alpha",NM NM N P NM N P NM NM N,NM NM NM NM NM NM NM NM NM N,{'gimp.srcml.xml_identifiers.idents'}
+"comp,mask",NM N,NM N,{'gimp.srcml.xml_identifiers.idents'}
+"compiler,item",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+"const,parameter,float",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"container,tab,bar",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"contextualize,closures",V NPL,NM N,{'swift.srcml.xml_identifiers'}
+"controlled,object",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"controller,value",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"cq,event,queue",NM NM N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"d,bus,proxy",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"d3d11,unsupported,gpu,program",NM NM NM N,NM NM NM NM NM NM N,{'ogre.srcml.xml_identifiers'}
+"data,access,repository,private",NM NM N NM,NM NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"declaration,context,private",NM N NM,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"declaration,item",NM N,NM N,{'kdevelop.srcml.xml_identifiers'}
+define,N,N,{'calligra.srcml.xml_identifiers'}
+"device,handler",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"dispatch,mask,buffer,iterator",NM NM NM N,NM NM NM N,{'gimp.srcml.xml_identifiers.idents'}
+"dispatch,paint,mask",NM NM N,NM NM N,{'gimp.srcml.xml_identifiers.idents'}
+"dual,con,input,reader",NM NM NM N,NM NM NM N,{'blender.srcml.xml_identifiers'}
+"dynamic,textured,cube,demo",NM NM NM N,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+"explicit,euler,scheme",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"expression,finder",NM N,NM N,{'swift.srcml.xml_identifiers'}
+"fd,black,scholes,vanilla,engine",NM NM NM NM N,NM NM NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"file,item,delegate",NM NM N,NM NM N,{'calligra.srcml.xml_identifiers'}
+"file,system,archive",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"fixed,object",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"frame,2",N D,NM N,{'blender.srcml.xml_identifiers'}
+"generic,emissive,closure",NM NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"geometry,interface",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"gl,config,attribs",PRE NM NPL,NM NM N,{'ogre.srcml.xml_identifiers'}
+"globals,as,members,table,reader,info",NPL P NPL NM NM N,NM NM NM NM NM N,{'swift.srcml.xml_identifiers'}
+"glx,configurator",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"hdr,listener",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"heat,vision,listener",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"i,read,file",NM NM N,NM NM N,{'irrlicht.srcml.xml_identifiers'}
+"image,manager",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"internal,ffmpeg,register",NM NM N,NM NM NM N,{'opencv.srcml.xml_identifiers'}
+"inverse,dynamics,example",NM NM N,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"jnt,array,acc",NM NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"ko,main,window,private",PRE NM N NM,NM NM NM N,{'calligra.srcml.xml_identifiers'}
+"ko,path,point,remove,command,private",PRE NM NM NM N NM,NM NM NM NM NM N,{'calligra.srcml.xml_identifiers'}
+"ko,rgb,u8,invert,color,transformation",PRE NM NM NM NM N,NM NM NM NM NM NM N,{'calligra.srcml.xml_identifiers'}
+"ko,section,end,private",PRE NM N NM,NM NM NM N,{'calligra.srcml.xml_identifiers'}
+"ko,shadow,style,private",PRE NM N NM,NM NM NM N,{'calligra.srcml.xml_identifiers'}
+"label,action",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"label,drawing,widget",NM NM N,NM NM N,{'calligra.srcml.xml_identifiers'}
+"layer,parameter",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"layout,data",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"less,dummy,gui,helper",NM NM NM N,DT NM NM N,{'bullet3.srcml.xml_identifiers'}
+"light,attenuation,value",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"list,level",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"log,mixed,linear,cubic,interpolation",NM NM NM NM N,NM NM NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"lsm,basis,system",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"lvl,currency",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"mask,components",NM NPL,NM N,{'gimp.srcml.xml_identifiers.idents'}
+"multicubic,spline",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"net,state,rule,default,type,internal",NM NM NM NM N NM,NM NM NM NM NM N,{'opencv.srcml.xml_identifiers'}
+"new,aggregate,builder,map",NM NM NM N,NM NM NM N,{'swift.srcml.xml_identifiers'}
+"node,shape",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"null,program",NM N,NM N,{'ogre.srcml.xml_identifiers'}
+"op,pool",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"output,delegate,private",NM N NM,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"parse,job,private",NM N NM,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"part,document,private",NM N NM,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"patch,coord,buffer",NM NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"physics,client,example",NM NM N,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"piecewise,constant,abcd,variance",NM NM NM N,NM NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"point,3",N D,NM N,{'opencv.srcml.xml_identifiers'}
+"pointer,map",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"predicate,wrapper",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"problem,reporter,factory",NM NM N,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+process,N,N,{'gimp.srcml.xml_identifiers.idents'}
+"project,controller,private",NM N NM,NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"qr,detect",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+quad,N,N,{'blender.srcml.xml_identifiers'}
+quote,N,N,{'QuantLib.srcml.xml_identifiers'}
+"read,bitstream",V N,NM N,{'opencv.srcml.xml_identifiers'}
+"reconstruct,update,callback",NM NM N,NM NM N,{'blender.srcml.xml_identifiers'}
+"record,header",NM N,NM N,{'calligra.srcml.xml_identifiers'}
+"refutable,pattern,initialization",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"rest,client",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"risky,bond",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"rolling,friction,demo",NM NM N,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"rs,compute,operation",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"rs,stencil,operation",NM NM N,NM NM N,{'ogre.srcml.xml_identifiers'}
+"setting,manager",NM N,NM N,{'irrlicht.srcml.xml_identifiers'}
+"simple,pressure",NM N,NM N,{'gimp.srcml.xml_identifiers.idents'}
+"sk,editor,consumer",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"stochastic,process",NM N,NM N,{'QuantLib.srcml.xml_identifiers'}
+"temp,comp,mask",NM NM N,NM NM N,{'gimp.srcml.xml_identifiers.idents'}
+"temperature,cauchy,1,d",NM N D NM,NM NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"template,preview,icon,data",NM NM NM NPL,NM NM NM N,{'kdevelop.srcml.xml_identifiers'}
+"tile,parameter,default,type,internal",NM NM NM N NM,NM NM NM NM N,{'opencv.srcml.xml_identifiers'}
+timelapser,N,N,{'opencv.srcml.xml_identifiers'}
+"to,string,walker",P N N,NM NM N,{'grpc.srcml.xml_identifiers'}
+"tree,element",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"tuple,lvalue,emitter",NM NM N,NM NM N,{'swift.srcml.xml_identifiers'}
+"user,2,internal,index",N P NM N,NM NM NM N,{'bullet3.srcml.xml_identifiers'}
+value,N,N,{'Telegram.srcml.xml_identifiers'}
+"vanilla,forward,payoff",NM NM N,NM NM N,{'QuantLib.srcml.xml_identifiers'}
+"vertex,position",NM N,NM N,{'bullet3.srcml.xml_identifiers'}
+"video,capture,dshow",NM NM N,NM NM NM N,{'opencv.srcml.xml_identifiers'}
+"voronoi,fracture,demo",NM NM N,NM NM N,{'bullet3.srcml.xml_identifiers'}
+"warning,failure,exception",NM NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"write,context",NM N,NM N,{'grpc.srcml.xml_identifiers'}
+"wsdls,solver",NM N,NM N,{'blender.srcml.xml_identifiers'}
+"add,ordered,list",V NM N,V NM N,{'mockito.srcml.xml_identifiers'}
+"add,unicode,script,codes,to,names",V NM NM NPL P NPL,V NM NM N P N,{'antlr4.srcml.xml_identifiers'}
+"after,channel",P N,NM N,{'jenkins.srcml.xml_identifiers'}
+"append,python,style,escaped,code,point",V NM N NM NM N,V NM NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"apply,margin,insets",V NM NPL,V NM N,{'Telegram.srcml.xml_identifiers'}
+"assign,lexer,token,types",V NM NM NPL,V NM NM N,{'antlr4.srcml.xml_identifiers'}
+"biggest,constructor",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"binary,search,bytes",NM N NPL,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"build,group,query",V NM N,V NM N,{'elasticsearch.srcml.xml_identifiers'}
+"build,lexer,rule,actions",V NM NM NPL,V NM NM N,{'antlr4.srcml.xml_identifiers'}
+"check,not,interface",V VM N,V DT N,{'mockito.srcml.xml_identifiers'}
+"check,not,local",V VM N,V DT N,{'mockito.srcml.xml_identifiers'}
+"class,annotations",NM NPL,V N,{'junit4.srcml.xml_identifiers'}
+"deep,stub",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+delete,V,V,{'elasticsearch.srcml.xml_identifiers'}
+"determine,strictness",V N,V N,{'mockito.srcml.xml_identifiers'}
+"do,forward",V V,V N,{'jenkins.srcml.xml_identifiers'}
+"do,install,status",V NM N,V V N,{'jenkins.srcml.xml_identifiers'}
+"do,login,entry",V NM N,V NM N,{'jenkins.srcml.xml_identifiers'}
+"dump,core,map,to,string,builder",V NM N P NM N,V NM N P NM N,{'corenlp.srcml.xml_identifiers'}
+"dynamic,table,index",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"expand,headers,from,request",V NPL P N,V N P N,{'elasticsearch.srcml.xml_identifiers'}
+"extract,raw,type,of",V NM NM P,V NM N P,{'mockito.srcml.xml_identifiers'}
+"find,source,subdir",V NM N,V NM N,{'antlr4.srcml.xml_identifiers'}
+"format,display,name",V NM N,V NM N,{'junit4.srcml.xml_identifiers'}
+"from,byte,buffers",P NM NPL,P NM N,{'elasticsearch.srcml.xml_identifiers'}
+"get,actual,values",V NM NPL,V NM N,{'junit4.srcml.xml_identifiers'}
+"get,artificial,op,prec,rule",V NM NM NM N,V NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"get,binary,side",V NM N,V NM N,{'corenlp.srcml.xml_identifiers'}
+"get,commit,id",V NM N,V NM N,{'jenkins.srcml.xml_identifiers'}
+"get,completed",V NM,V N,{'elasticsearch.srcml.xml_identifiers'}
+"get,default,install,state",V NM NM N,V NM NM N,{'jenkins.srcml.xml_identifiers'}
+"get,display,path",V NM N,V NM N,{'jenkins.srcml.xml_identifiers'}
+"get,error,listeners",V NM NPL,V NM N,{'antlr4.srcml.xml_identifiers'}
+"get,failure,timestamp",V NM N,V NM N,{'junit4.srcml.xml_identifiers'}
+"get,id,for,name",V N P N,V N P N,{'elasticsearch.srcml.xml_identifiers'}
+"get,initial,window,size",V NM NM N,V NM NM N,{'okhttp.srcml.xml_identifiers'}
+"get,item,type,descriptor",V NM NM N,V NM NM N,{'jenkins.srcml.xml_identifiers'}
+"get,leftmost,descendant",V NM N,V NM N,{'corenlp.srcml.xml_identifiers'}
+"get,max,shingle,diff",V NM NM N,V NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"get,number,of,transitions",V N P NPL,V N P N,{'antlr4.srcml.xml_identifiers'}
+"get,operations,reads",V NM NPL,V NM N,{'elasticsearch.srcml.xml_identifiers'}
+"get,phrase,1",V N D,V N D,{'corenlp.srcml.xml_identifiers'}
+"get,pid,no,exceptions",V N DT NPL,V NM DT N,{'corenlp.srcml.xml_identifiers'}
+"get,raw,arguments",V NM NPL,V NM N,{'mockito.srcml.xml_identifiers'}
+"is,blocked,by,shutdown",V V P N,V N P N,{'jenkins.srcml.xml_identifiers'}
+"init,for,group",V P N,V P N,{'Telegram.srcml.xml_identifiers'}
+"is,android",V N,V N,{'mockito.srcml.xml_identifiers'}
+"is,conscrypt,preferred",V N V,V NM N,{'okhttp.srcml.xml_identifiers'}
+"is,dependency,changed",V N V,V NM N,{'antlr4.srcml.xml_identifiers'}
+"keep,readability,only,on,descendants",V NM VM P NPL,V NM N P N,{'jenkins.srcml.xml_identifiers'}
+"make,html,table",V NM N,V NM N,{'corenlp.srcml.xml_identifiers'}
+"mark,as,fetching",V P V,NM N V,{'elasticsearch.srcml.xml_identifiers'}
+"match,by,ip",V P N,V P N,{'elasticsearch.srcml.xml_identifiers'}
+"matches,any,parent,categories",V DT NM NPL,V DT NM N,{'junit4.srcml.xml_identifiers'}
+"metadata,snapshot",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"new,exchange",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"next,unassigned",NM NM,DT P,{'junit4.srcml.xml_identifiers'}
+"null,passed,to,verify,no,more,interactions",N V P V VM DT NPL,NM NM NM NM DT DT N,{'mockito.srcml.xml_identifiers'}
+"nulls,ok",NPL NM,NM N,{'junit4.srcml.xml_identifiers'}
+"object,with,to,string",N P P N,V P NM N,{'junit4.srcml.xml_identifiers'}
+"on,group,call,key,sent",P NM NM N NM,NM NM NM N P,{'Telegram.srcml.xml_identifiers'}
+"on,implies",P V,NM N,{'jenkins.srcml.xml_identifiers'}
+"order,with",V P,V P,{'junit4.srcml.xml_identifiers'}
+"parent,pairs",NM NPL,V N,{'corenlp.srcml.xml_identifiers'}
+"parse,attribute,def",V NM N,V NM N,{'antlr4.srcml.xml_identifiers'}
+"parse,expires",V NPL,V N,{'okhttp.srcml.xml_identifiers'}
+"parse,max,age",V NM N,V NM N,{'okhttp.srcml.xml_identifiers'}
+"push,reset,later",V N VM,V NM N,{'okhttp.srcml.xml_identifiers'}
+"read,response",V N,V N,{'okhttp.srcml.xml_identifiers'}
+"read,white,space",V NM N,V NM N,{'corenlp.srcml.xml_identifiers'}
+"report,no,setter,found",V DT N V,NM DT N P,{'mockito.srcml.xml_identifiers'}
+"require,client,auth",V NM N,V NM N,{'okhttp.srcml.xml_identifiers'}
+"reset,meta,class,cache",V NM NM N,V NM NM N,{'jenkins.srcml.xml_identifiers'}
+"run,methods",V NPL,V N,{'junit4.srcml.xml_identifiers'}
+"send,string",V N,V N,{'openFrameworks.srcml.xml_identifiers'}
+"set,canonical,mention,begin",V NM NM N,V NM NM N,{'corenlp.srcml.xml_identifiers'}
+"set,extra,interfaces",V NM NPL,V NM N,{'mockito.srcml.xml_identifiers'}
+"set,project,naming,strategy",V NM NM N,V NM NM N,{'jenkins.srcml.xml_identifiers'}
+"simulate,gc",V N,V N,{'corenlp.srcml.xml_identifiers'}
+"skip,whitespace,and,commas",V N CJ NPL,V NM NM N,{'okhttp.srcml.xml_identifiers'}
+speaker,N,N,{'corenlp.srcml.xml_identifiers'}
+"split,argument,list",V NM N,V NM N,{'antlr4.srcml.xml_identifiers'}
+"start,matched,count,dec",V NM N V,V NM NM N,{'corenlp.srcml.xml_identifiers'}
+"strip,left,recursion",V NM N,V NM N,{'antlr4.srcml.xml_identifiers'}
+"target,started",N V,N P,{'jenkins.srcml.xml_identifiers'}
+"throw,provision,exception,if,errors,exist",V NM N CJ NPL V,V NM NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"training,examples",NM NPL,V N,{'corenlp.srcml.xml_identifiers'}
+"uncompress,if,needed",V CJ V,NM N P,{'elasticsearch.srcml.xml_identifiers'}
+"url,from,json",N P N,V P N,{'okhttp.srcml.xml_identifiers'}
+"validate,class,rules",V NM NPL,V NM N,{'junit4.srcml.xml_identifiers'}
+"validate,public,static,void,methods",V NM NM NM NPL,V NM NM NM N,{'junit4.srcml.xml_identifiers'}
+"verification,started",N V,N P,{'mockito.srcml.xml_identifiers'}
+"with,charset",P N,P N,{'okhttp.srcml.xml_identifiers'}
+"with,web,socket,upgrade",P NM NM N,P NM NM N,{'okhttp.srcml.xml_identifiers'}
+"wrap,if,not,thread,safe",V CJ VM NM N,V NM DT NM N,{'junit4.srcml.xml_identifiers'}
+"actual,suffix",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+adding,V,N,{'jenkins.srcml.xml_identifiers'}
+"all,action,roots",DT NM NPL,DT NM N,{'antlr4.srcml.xml_identifiers'}
+"all,invocation,matchers",DT NM NPL,DT NM N,{'mockito.srcml.xml_identifiers'}
+"all,open,indices",DT NM NPL,DT NM N,{'elasticsearch.srcml.xml_identifiers'}
+"avg,map",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"base,category",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"best,node",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"cache,body,unbuffered",NM N NM,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"cache,entity",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"child,categories",NM NPL,NM N,{'junit4.srcml.xml_identifiers'}
+"client,certificates",NM NPL,NM N,{'okhttp.srcml.xml_identifiers'}
+"cmd,lines",NM NPL,NM N,{'jenkins.srcml.xml_identifiers'}
+"code,exception,message",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"compare,fields,by,name",V NPL P N,NM NM NM N,{'mockito.srcml.xml_identifiers'}
+"copy,item",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"curr,thread,exception",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"current,open,shards",NM NM NPL,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"d,inf",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"default,blocked,item,comparator",NM NM NM N,NM NM NM N,{'jenkins.srcml.xml_identifiers'}
+"dependencies,st",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"end,of,input",N P N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"enum,count",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"equals,builder",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"equals,offset",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+executors,NPL,N,{'jenkins.srcml.xml_identifiers'}
+"expected,string",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"extra,interfaces",NM NPL,NM N,{'mockito.srcml.xml_identifiers'}
+"factory,class",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"filter,spec",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"finished,normally",V VM,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"first,space",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+followup,N,N,{'okhttp.srcml.xml_identifiers'}
+"format,ok",N NM,NM N,{'antlr4.srcml.xml_identifiers'}
+"free,positions",NM NPL,NM N,{'corenlp.srcml.xml_identifiers'}
+"generated,token,on,creation",NM N P N,NM NM NM N,{'jenkins.srcml.xml_identifiers'}
+"id,mention",N NM,NM N,{'corenlp.srcml.xml_identifiers'}
+"idp,configuration",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"implicit,group,key",NM NM N,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"in,cache",P N,NM N,{'Telegram.srcml.xml_identifiers'}
+"indexes,of,suspicious,args",NPL P NM NPL,NM NM NM N,{'mockito.srcml.xml_identifiers'}
+"interface,bounds",NM NPL,NM N,{'mockito.srcml.xml_identifiers'}
+"jar,url,connection",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"key,begin",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"left,sisters,buffer",NM NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"loaded,mentions,count",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"logger,name,parts",NM NM NPL,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"max,age,seconds,long",NM NM NPL NM,NM NM NM N,{'okhttp.srcml.xml_identifiers'}
+"merged,type",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"method,handles",NM NPL,NM N,{'mockito.srcml.xml_identifiers'}
+"minimized,random,fa",NM NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"missing,classes",NM NPL,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"mock,method",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"mx,bean",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"network,security,policy",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"new,rule,text",NM NM N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"new,warning,header,size",NM NM NM N,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"next,search",NM N,DT N,{'elasticsearch.srcml.xml_identifiers'}
+"non,greedy,states,builder",NM NM NM N,NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"num,states",NM NPL,NM N,{'corenlp.srcml.xml_identifiers'}
+"one,document",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"open,class,tags",NM NM NPL,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"order,with",V P,NM N,{'junit4.srcml.xml_identifiers'}
+"parts,size",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"previous,stream,id",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"provider,code",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"raw,extra,interfaces",NM NM NPL,NM NM N,{'mockito.srcml.xml_identifiers'}
+"received,token,signature",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"recorded,matchers,size",NM NM N,NM NM N,{'mockito.srcml.xml_identifiers'}
+"reduced,json",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"requested,plugins",NM NPL,NM N,{'jenkins.srcml.xml_identifiers'}
+"rounded,bounds",NM NPL,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"rtm,session",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"rules,of,new,chain",N P NM N,NM NM NM N,{'junit4.srcml.xml_identifiers'}
+"score,pos,prev",NM N NM,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"sentence,list",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"set,prev,ctx,action",NM NM NM N,NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"size,guess",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"size,per,span",N P N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"status,file",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"stream,headers",NM NPL,NM N,{'okhttp.srcml.xml_identifiers'}
+"thread,array,size",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"token,data",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"token,store,typed,data",NM NM NM N,NM NM NM N,{'jenkins.srcml.xml_identifiers'}
+"token,type,s",NM NM N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"tune,treebank",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"utc,timestamp,ms",NM NM NPL,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"v,tok",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"value,count,string",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"var,args",NM NPL,NM N,{'mockito.srcml.xml_identifiers'}
+"vary,fields",NM NPL,NM N,{'okhttp.srcml.xml_identifiers'}
+"verification,over,time",N P N,NM NM N,{'mockito.srcml.xml_identifiers'}
+"wait,until",V P,NM N,{'jenkins.srcml.xml_identifiers'}
+"wrapper,class",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"x,distance",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"accepting,tasks",NM NPL,NM N,{'jenkins.srcml.xml_identifiers'}
+"alt,name",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"app,id",NM N,NM N,{'opencv.srcml.xml_identifiers'}
+"arg,mismatch,stubbings",NM NM NPL,NM NM N,{'mockito.srcml.xml_identifiers'}
+"array,class",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+assigns,NPL,N,{'junit4.srcml.xml_identifiers'}
+"auth,result",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"backprop,training",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"breaker,consumer",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"build,context",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"call,id",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"cause,matcher",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"child,statement",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"classfile,buffer",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"cmd,str",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"code,point,to",NM N P,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"concrete,follower,indices",NM NM NPL,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"content,type,string",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"current,invocation",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"current,prefix",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"data,point,method",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"default,role",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"dep,h",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"encoded,values",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"env,name",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"excess,workload",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"file,channel",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"final,response",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"flags,classifier,pair",NM NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"from,server",P N,NM N,{'Telegram.srcml.xml_identifiers'}
+"get,protocol,method",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"group,role,attribute",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+highlighter,N,N,{'elasticsearch.srcml.xml_identifiers'}
+"http2,error,code",NM NM N,NM NM NM N,{'okhttp.srcml.xml_identifiers'}
+"i,ar,e",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"id,a",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"import,g",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+inbound,NM,N,{'okhttp.srcml.xml_identifiers'}
+ios,N,N,{'jenkins.srcml.xml_identifiers'}
+"label,op",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"label,pair",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"labels,file",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"learned,lop,expert,weights,2,d",NM NM NM NPL D N,NM NM NM NM NM N,{'corenlp.srcml.xml_identifiers'}
+"led,color",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"lp,binary,path,name",PRE NM NM N,NM NM NM N,{'jenkins.srcml.xml_identifiers'}
+"max,intermediate,cas",NM NM NPL,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"max,requests,per,host",NM NPL P N,NM NM NM N,{'okhttp.srcml.xml_identifiers'}
+"media,chunk,index",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"method,name,prefixes",NM NM NPL,NM NM N,{'junit4.srcml.xml_identifiers'}
+"min,fresh",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"min,fresh,seconds",NM NM NPL,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"mock,creation,settings",NM NM NPL,NM NM N,{'mockito.srcml.xml_identifiers'}
+"named,writeables",NM NPL,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"new,field,type",NM NM N,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"new,files",NM NPL,NM N,{'corenlp.srcml.xml_identifiers'}
+"new,verification,mode",NM NM N,NM NM N,{'mockito.srcml.xml_identifiers'}
+"nullable,class",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"num,keys",NM NPL,NM N,{'corenlp.srcml.xml_identifiers'}
+"number,str",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"ordered,invocations",NM NPL,NM N,{'mockito.srcml.xml_identifiers'}
+"original,set",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"outer,rule",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"packet,sample,count",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"parameter,assignment",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"parent,had,big,change",N V NM N,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"polling,log",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"pre,map",P N,NM N,{'corenlp.srcml.xml_identifiers'}
+promises,NPL,N,{'okhttp.srcml.xml_identifiers'}
+pronoun,N,N,{'corenlp.srcml.xml_identifiers'}
+"property,interval,set",NM NM N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"put,watch,request",NM NM N,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"query,timeout,in,ms",NM N P NPL,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"question,ast",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"reader,flags",NM NPL,NM N,{'mockito.srcml.xml_identifiers'}
+"referee,set,map",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"refresh,metric",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"remote,cluster,names",NM NM NPL,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+resume,V,N,{'Telegram.srcml.xml_identifiers'}
+"retain,function",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"runner,factory",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"search,profile,results",NM NM NPL,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"set,protocol,method",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"status,file",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"super,method",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"supplier,class",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"tex,id",NM N,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"the,invocation",DT N,DT N,{'mockito.srcml.xml_identifiers'}
+"timeout,task",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"times,to,append,last,matcher",NPL P V NM N,NM NM NM DT N,{'mockito.srcml.xml_identifiers'}
+"token,within,action",N P N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"typed,array",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"waiting,list",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"will,return,last,parameter",V V NM N,NM NM DT N,{'mockito.srcml.xml_identifiers'}
+"word,lemma,tag",NM NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"wrapped,verification",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"z,probs",NM NPL,NM N,{'corenlp.srcml.xml_identifiers'}
+"action,to,index,map",N P NM N,NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"active,copies",NM NPL,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"actual,count",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"add,bias,to,embedding",V N P N,NM NM NM N,{'corenlp.srcml.xml_identifiers'}
+"address,type,ipv4",NM NM N,NM NM NM N,{'okhttp.srcml.xml_identifiers'}
+"all,stubbings",DT NPL,DT N,{'mockito.srcml.xml_identifiers'}
+"alt,label,ctxs",NM NM NPL,NM NM N,{'antlr4.srcml.xml_identifiers'}
+atom,N,N,{'antlr4.srcml.xml_identifiers'}
+"attribute,decls",NM NPL,NM N,{'antlr4.srcml.xml_identifiers'}
+"b,is,playing",PRE V V,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"bean,configs",NM NPL,NM N,{'jenkins.srcml.xml_identifiers'}
+befores,NPL,N,{'junit4.srcml.xml_identifiers'}
+"buckets,path,field",NM NM N,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"build,timestamp",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"bytes,received",NPL NM,NM N,{'okhttp.srcml.xml_identifiers'}
+"caching,mock,bytecode,generator",NM NM NM N,NM NM NM N,{'mockito.srcml.xml_identifiers'}
+"certificate,chain,cleaner",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+client,N,N,{'okhttp.srcml.xml_identifiers'}
+"client,number",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+codes,NPL,N,{'okhttp.srcml.xml_identifiers'}
+"context,length",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"cookie,jar",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"current,filename",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"default,answer",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"default,factory",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"default,flags",NM NPL,NM N,{'elasticsearch.srcml.xml_identifiers'}
+development,N,N,{'jenkins.srcml.xml_identifiers'}
+"dynamic,table,byte,count",NM NM NM N,NM NM NM N,{'okhttp.srcml.xml_identifiers'}
+"embedded,version",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"empty,directory",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"encoded,path,segments",NM NM NPL,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"exception,channels",NM NPL,NM N,{'Telegram.srcml.xml_identifiers'}
+"extract,events",V NPL,NM N,{'corenlp.srcml.xml_identifiers'}
+"f,context,length",PRE NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"f,matcher",PRE N,NM N,{'junit4.srcml.xml_identifiers'}
+"feed,adapter",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"filtered,children",NM NPL,NM N,{'junit4.srcml.xml_identifiers'}
+"fingerprint,dialog",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"gen,subj",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"get,source,name",NM NM N,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"id,lumninance,min",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"idle,delay",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"in,order,wrapped,verification,mode",P N NM NM N,NM NM NM NM N,{'mockito.srcml.xml_identifiers'}
+"index,prefix,with,template",NM N P N,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"inet,socket,address",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"initialization,error",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"inner,alpha",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+invalid,NM,N,{'antlr4.srcml.xml_identifiers'}
+"invalid,host",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"invalid,state,number",NM NM N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"is,first,capital",V NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"is,first,frame",V NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"key,password,profiles",NM NM NPL,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"label,regex",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"language,to,rules,files",N P NM NPL,NM NM NM N,{'corenlp.srcml.xml_identifiers'}
+"latency,arg",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+logger,N,N,{'jenkins.srcml.xml_identifiers'}
+"m,count,activities",PRE NM NPL,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"m,fbo,height",PRE NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"m,is,worker,done",PRE V N NM,NM NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"m,preview,started",PRE N NM,NM NM N,{'opencv.srcml.xml_identifiers'}
+"m,resources",PRE NPL,NM N,{'opencv.srcml.xml_identifiers'}
+"manifest,file,prefix",NM NM N,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"matcher,builder",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"min,font,size",NM NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"mock,ref",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"module,finder",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+more,DT,DT,{'antlr4.srcml.xml_identifiers'}
+"move,rbt,surgeon",NM NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"name,container",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"next,giphy,search,offset",NM NM NM N,DT NM NM N,{'Telegram.srcml.xml_identifiers'}
+"num,outs",NM NPL,NM N,{'openFrameworks.srcml.xml_identifiers'}
+"on,item,long,click,listener",P NM NM NM N,NM NM NM NM N,{'Telegram.srcml.xml_identifiers'}
+"ongoing,call,notification",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"op,code,continuation",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"original,mocking,details",NM NM NPL,NM NM N,{'mockito.srcml.xml_identifiers'}
+"other,data,len,bits",NM NM NM NPL,DT NM NM N,{'Telegram.srcml.xml_identifiers'}
+parent,N,N,{'jenkins.srcml.xml_identifiers'}
+"parser,errors",NM NPL,NM N,{'junit4.srcml.xml_identifiers'}
+"pref,font",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"prev,property",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"previous,caption",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"print,features,up,to",V NPL VM P,NM NM NM N,{'corenlp.srcml.xml_identifiers'}
+"raw,arguments",NM NPL,NM N,{'mockito.srcml.xml_identifiers'}
+"reference,index,meta,datas",NM NM NM NPL,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"refresh,interval,in,millis",NM N P NPL,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"returned,value",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"returns,self",V N,NM N,{'mockito.srcml.xml_identifiers'}
+"rule,options",NM NPL,NM N,{'antlr4.srcml.xml_identifiers'}
+"run,dist,cmd,prop",NM NM NM N,NM NM NM N,{'corenlp.srcml.xml_identifiers'}
+"runner,override",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"runtime,mx,bean",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"selected,account",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"session,factory",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"skip,vetoes",NM NPL,NM N,{'jenkins.srcml.xml_identifiers'}
+"sort,field,data,type",NM NM NM N,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"st,lib",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"state,to,grammar,region,map",N P NM NM N,NM NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+statement,N,N,{'junit4.srcml.xml_identifiers'}
+"stubbing,lookup,listeners",NM NM NPL,NM NM N,{'mockito.srcml.xml_identifiers'}
+"tcp,slave,agent,listener,lock",NM NM NM NM N,NM NM NM NM N,{'jenkins.srcml.xml_identifiers'}
+"total,merge,throttled,time",NM NM NM N,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"type,test,rule",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"type,window,update",N NM NM,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"unknown,username",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+unrestricted,NM,N,{'jenkins.srcml.xml_identifiers'}
+"validator,strategies",NM NPL,NM N,{'junit4.srcml.xml_identifiers'}
+"verification,strategy",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"weak,ref,lost",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"abstract,build,execution",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"action,translator",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"alt,and,context,config,equality,comparator",N CJ NM NM NM N,NM NM NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"android,byte,buddy,mock,maker",NM NM NM NM N,NM NM NM NM N,{'mockito.srcml.xml_identifiers'}
+"arabic,segmenter",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"base,loader,callback",NM NM N,NM NM N,{'opencv.srcml.xml_identifiers'}
+"basic,replication,request",NM NM N,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"binary,rule",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"bucket,collector",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"build,wrapper",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"cache,strategy",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"cached,region,tracker",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"category,filter,factory",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"cbor,x,content",NM NM N,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"chapter,toc,frame",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"chinese,treebank,parser,params",NM NM NM NPL,NM NM NM N,{'corenlp.srcml.xml_identifiers'}
+"cipher,suite",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"class,loaders",NM NPL,NM N,{'mockito.srcml.xml_identifiers'}
+"cluster,update,settings,response",NM NM NM N,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"configure,timeouts",NM NPL,NM N,{'okhttp.srcml.xml_identifiers'}
+"content,path",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"context,token,list,indexed,getter,decl",NM NM NM NM NM N,NM NM NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"crf,non,linear,log,conditional,objective,function",NM NM NM NM NM NM N,NM NM NM NM NM NM N,{'corenlp.srcml.xml_identifiers'}
+"default,injection,engine",NM NM N,NM NM N,{'mockito.srcml.xml_identifiers'}
+"default,mocking,details",NM NM NPL,NM NM N,{'mockito.srcml.xml_identifiers'}
+"disk,lru,cache",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"dot,generator",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+"dvb,subtitle,reader",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"env,vars,slave,info,display,name",NM NM NM NM NM N,NM NM NM NM NM N,{'jenkins.srcml.xml_identifiers'}
+executor,N,N,{'jenkins.srcml.xml_identifiers'}
+"expected,exception",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"file,operator",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"file,path,filter",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"formatted,text",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"generic,type,extractor",NM NM N,NM NM N,{'mockito.srcml.xml_identifiers'}
+"get,home,directory",V NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"get,total,disk,space",V NM NM N,NM NM NM N,{'jenkins.srcml.xml_identifiers'}
+"group,by,context",N P N,NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"h,pack",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"handshake,mode",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"http1,exchange,codec",NM NM N,NM NM NM N,{'okhttp.srcml.xml_identifiers'}
+"icy,decoder",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"install,uncaught,exception,handler",V NM NM N,NM NM NM N,{'jenkins.srcml.xml_identifiers'}
+internal,NM,N,{'okhttp.srcml.xml_identifiers'}
+"jflex,dummy,lexer",PRE NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"key,status",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+lease,N,N,{'jenkins.srcml.xml_identifiers'}
+"left,recursive,rule,function",NM NM NM N,NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"local,ref",NM N,NM N,{'antlr4.srcml.xml_identifiers'}
+maps,NPL,N,{'corenlp.srcml.xml_identifiers'}
+"max,core",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"media,chunk,iterator",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"mention,detection,evaluator",NM NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"minimum,supported,version",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"mock,creation,validator",NM NM N,NM NM N,{'mockito.srcml.xml_identifiers'}
+"mockito,assertion,error",PRE NM N,NM NM N,{'mockito.srcml.xml_identifiers'}
+"module,handler",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"mp4,extractor",NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"mp4,input",NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"mpeg,audio,reader",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"multiple,failure,exception",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+multipolygon,N,N,{'elasticsearch.srcml.xml_identifiers'}
+"oauth,session",NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"oauth,session,factory",NM NM N,NM NM NM N,{'okhttp.srcml.xml_identifiers'}
+"of,android,life,cycle,helper",PRE NM NM NM N,NM NM NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"of,android,object",PRE NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"of,android,sound,player",PRE NM NM N,NM NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"of,android,window",PRE NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"of,orientation,listener",PRE NM N,NM NM N,{'openFrameworks.srcml.xml_identifiers'}
+"parallel,computer",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"parameter,signature",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"patterns,annotations",NM NPL,NM N,{'corenlp.srcml.xml_identifiers'}
+"post,file",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+"post,script,document",NM NM N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"print,events",NM NPL,NM N,{'okhttp.srcml.xml_identifiers'}
+"publish,response",NM N,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"remoting,diagnostics",NM NPL,NM N,{'jenkins.srcml.xml_identifiers'}
+"resolved,failed,exception",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}
+"response,handlers",NM NPL,NM N,{'elasticsearch.srcml.xml_identifiers'}
+"returns,empty,values",V NM NPL,NM NM N,{'mockito.srcml.xml_identifiers'}
+"rule,member,validator",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"rule,property,ref,ctx",NM NM NM N,NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"rule,property,ref,start",NM NM NM N,NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"run,after,params",V NM NPL,NM NM N,{'junit4.srcml.xml_identifiers'}
+"run,before,params",V NM NPL,NM NM N,{'junit4.srcml.xml_identifiers'}
+"runner,scheduler",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"scroll,id,for,node",NM N P N,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"segmenter,core,annotations",NM NM NPL,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"sei,reader",NM N,NM N,{'Telegram.srcml.xml_identifiers'}
+"serialized,form",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"shift,reduce,train,options",NM NM NM NPL,NM NM NM N,{'corenlp.srcml.xml_identifiers'}
+"single,period,timeline",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+sinh,N,N,{'elasticsearch.srcml.xml_identifiers'}
+"slack,client",NM N,NM N,{'okhttp.srcml.xml_identifiers'}
+store,N,N,{'elasticsearch.srcml.xml_identifiers'}
+"strictness,selector",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"stubbing,comparator",NM N,NM N,{'mockito.srcml.xml_identifiers'}
+"su,time",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"suite,method",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"suite,method,builder",NM NM N,NM NM N,{'junit4.srcml.xml_identifiers'}
+"task,impl",NM N,NM N,{'jenkins.srcml.xml_identifiers'}
+"temporary,folder",NM N,NM N,{'junit4.srcml.xml_identifiers'}
+"text,paint,view",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"time,signal,command",NM NM N,NM NM N,{'Telegram.srcml.xml_identifiers'}
+"token,property,ref",NM NM N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"token,property,ref,channel",NM NM NM N,NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"token,type,decl",NM NM N,NM NM N,{'antlr4.srcml.xml_identifiers'}
+"top,ngram,record",NM NM N,NM NM NM N,{'corenlp.srcml.xml_identifiers'}
+"transport,shard,refresh,action",NM NM NM N,NM NM NM N,{'elasticsearch.srcml.xml_identifiers'}
+"tree,post,script,generator",NM NM NM N,NM NM NM N,{'antlr4.srcml.xml_identifiers'}
+"tsurgeon,parse,exception",NM NM N,NM NM N,{'corenlp.srcml.xml_identifiers'}
+"value,label",NM N,NM N,{'corenlp.srcml.xml_identifiers'}
+"verification,mode,factory",NM NM N,NM NM N,{'mockito.srcml.xml_identifiers'}
+"web,socket,listener",NM NM N,NM NM N,{'okhttp.srcml.xml_identifiers'}
+"workspace,file,mask",NM NM N,NM NM N,{'jenkins.srcml.xml_identifiers'}

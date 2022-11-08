@@ -1,0 +1,4 @@
+# Project exclude paths
+/sunburst/node_modules/
+/sunburst-d3-v3/node_modules/
+/treemap/node_modules/
