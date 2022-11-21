@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Treemap</title>
+		<link rel="stylesheet" href="./reset.css" />
 		<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"
 			integrity="sha512-MefNfAGJ/pEy89xLOFs3V6pYPs6AmUhXJrRlydI/9wZuGrqxmrdQ80zKHUcyadAcpH67teDZcBeS6oMJLPtTqw=="
@@ -12,8 +13,35 @@
 			rel="stylesheet"
 			type="text/css"
 			href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
+		<div>
+			<form>
+				<div class="posterm">
+					<label for="posterm">Filter by POS Term</label><br />
+					<select id="posterm">
+						<option value="all">All</option>
+						<option value="NM">NM</option>
+						<option value="NPL">NPL</option>
+						<option value="PRE">PRE</option>
+						<option value="V">V</option>
+						<option value="N">N</option>
+						<option value="P">P</option>
+						<option value="D">D</option>
+					</select>
+				</div>
+
+				<div class="searchterm">
+					<label for="searchterm">Search term</label><br />
+					<input type="text" id="searchterm" />
+				</div>
+				<div>
+					<button type="submit">Filter</button>
+					<button type="reset">Reset</button>
+				</div>
+			</form>
+		</div>
 		<div id="main">
 			<div id="chart"></div>
 		</div>

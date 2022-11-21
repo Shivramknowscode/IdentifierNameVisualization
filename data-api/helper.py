@@ -2,18 +2,6 @@ from csv import reader, writer
 from pprint import pprint
 
 
-# def make_csv(data):
-#     with open("data.csv", "w", newline="") as file:
-#         csv_writer = writer(file)
-#         for row in data:
-#             csv_writer.writerow(row.split(","))
-
-
-# def read_csv():
-#     with open("data.csv") as f:
-#         return f.read()
-
-
 def make_csv():
     data = None
     with open("sample.csv") as f:

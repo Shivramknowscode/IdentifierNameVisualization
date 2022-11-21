@@ -53,9 +53,11 @@ class PosParser:
         pos_words = row[1].split(" ")
         i = 0
         while i < len(words):
-            word = f"{pos_words[i]}/{words[i]}/{str(random())}"
+            # word = f"{pos_words[i]}/{words[i]}/{str(random())}"
+            word = f"{pos_words[i]}/{words[i]}"
             result.append(word)
             i += 1
+        # print(result)
         return result
 
     def pos_words_cleaner(self, words):
@@ -76,7 +78,8 @@ class PosParser:
                         "identifier": "".join(row[0].split(" ")),
                         "pos_words": self.make_word_pos(row),
                         "language": row[-1],
-                        "system": "".join([w for w in row[-2] if w not in "'{}\""]),
+                        "system": "".join(
+                            [w for w in row[-2] if w not in "'{}\""]),
                         "raw_words": [w.lower() for w in row[0].split(" ")],
                     },
                     csv_data,
@@ -101,10 +104,10 @@ class PosParser:
     def filter_word_by_pos(self, term):
         try:
             result = list(self.trie[term:])
-            printable_result = [
-                {**r, "pos_words": self.pos_words_cleaner(r["pos_words"])}
-                for r in result
-            ]
+            printable_result = [{
+                **r, "pos_words":
+                self.pos_words_cleaner(r["pos_words"])
+            } for r in result]
             result_trie = self.make_trie_sm(self.trie[term:])
             result_pos_obj = PosParser(self.file)
             result_pos_obj.trie = result_trie
@@ -137,13 +140,17 @@ class PosParser:
         prep_data = []
         for item in data:
             prep_data.append(item["raw_words"])
-        pprint(list(set(map(lambda i: " ".join(i), prep_data))))
+        prep_data_uniques = list(set([str(item) for item in prep_data]))
+        prep_data_uniques = [
+            "".join(char for char in item if char not in "['] ").split(",")
+            for item in prep_data_uniques
+        ]
         csv_ready_data = []
-        for item in data:
+        for item in prep_data_uniques:
             total = 0
-            for word in item["raw_words"]:
+            for word in item:
                 total += all_words.count(word)
-            csv_ready_data.append(f'{".".join(item["raw_words"])},{total}')
+            csv_ready_data.append(f'{".".join(item)},{total}')
         return csv_ready_data
 
 
@@ -153,7 +160,3 @@ if __name__ == "__main__":
     pos.make_trie()
     result = pos.trie.values()
     res = pos.create_tree_map_csv(result)
-    # result = pos.filter_word_by_pos("NPL")
-    # pos.create_tree_map_csv(result.print)
-    # data = result.print
-    # pprint(data)

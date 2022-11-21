@@ -1,5 +1,3 @@
-import { csv } from 'https://cdn.skypack.dev/d3-fetch@3';
-
 function Treemap(
 	data,
 	{
@@ -147,65 +145,58 @@ function Treemap(
 	return Object.assign(svg.node(), { scales: { color } });
 }
 
-const req = fetch('http://127.0.0.1:5000/', { method: 'GET' });
-req.then((res) => {
-	const data = res.json();
-	data.then((res) => {
-		// let csvFile = URL.createObjectURL(new Blob([data]));
-		let splitData = res.split('\n');
-		let splitData2 = splitData.map((i) => i.split(','));
+createVisualization('all');
 
-		let flare = splitData2.map((i) => ({ name: i[0], size: i[1] }));
-		flare['columns'] = ['name', 'size'];
-		console.log(flare);
+// DOM Objects
+const form = document.querySelector('form');
+const postTermFilter = document.querySelector('#posterm');
+const searchTermFilter = document.querySelector('#searchterm');
 
-		let chart = Treemap(flare, {
-			path: (d) => d.name.replace(/\./g, '/'), // e.g., "flare/animate/Easing"
-			value: (d) => d?.size, // size of each node (file); null for internal nodes (folders)
-			group: (d) => d.name.split('.')[1], // e.g., "animate" in "flare.animate.Easing"; for color
-			label: (d, n) =>
-				[
-					...d.name
-						.split('.')
-						.pop()
-						.split(/(?=[A-Z][a-z])/g),
-					n.value.toLocaleString('en'),
-				].join('\n'),
-			title: (d, n) => `${d.name}\n${n.value.toLocaleString('en')}`, // text to show on hover
-
-			tile: d3.treemapBinary, // e.g., d3.treemapBinary; set by input above
-			width: 1152,
-			height: 1152,
-		});
-
-		let chartDOM = document.querySelector('#chart');
-		chartDOM.append(chart);
-	});
+form.addEventListener('submit', function (e) {
+	e.preventDefault();
+	createVisualization(postTermFilter.value, searchTermFilter.value);
 });
 
-// csv('./flare-2.csv').then((data) => {
-// 	let flare = data;
-// 	console.log(flare);
+function createVisualization(posTerm, searchTerm = '') {
+	let chartDOM = document.querySelector('#chart');
+	chartDOM.innerHTML = 'loading...';
+	const req = fetch(
+		`http://127.0.0.1:5000?posterm=${posTerm}&searchterm=${searchTerm}`,
+		{ method: 'GET' }
+	);
+	req.then((res) => {
+		const data = res.json();
+		data.then((res) => {
+			// let csvFile = URL.createObjectURL(new Blob([data]));
+			let splitData = res.split('\n');
+			let splitData2 = splitData.map((i) => i.split(','));
 
-// 	let chart = Treemap(flare, {
-// 		path: (d) => d.name.replace(/\./g, '/'), // e.g., "flare/animate/Easing"
-// 		value: (d) => d?.size, // size of each node (file); null for internal nodes (folders)
-// 		group: (d) => d.name.split('.')[1], // e.g., "animate" in "flare.animate.Easing"; for color
-// 		label: (d, n) =>
-// 			[
-// 				...d.name
-// 					.split('.')
-// 					.pop()
-// 					.split(/(?=[A-Z][a-z])/g),
-// 				n.value.toLocaleString('en'),
-// 			].join('\n'),
-// 		title: (d, n) => `${d.name}\n${n.value.toLocaleString('en')}`, // text to show on hover
+			let flare = splitData2.map((i) => ({ name: i[0], size: i[1] }));
+			flare['columns'] = ['name', 'size'];
+			console.log(flare);
 
-// 		tile: d3.treemapBinary, // e.g., d3.treemapBinary; set by input above
-// 		width: 1152,
-// 		height: 1152,
-// 	});
+			let chart = Treemap(flare, {
+				path: (d) => d.name.replace(/\./g, '/'), // e.g., "flare/animate/Easing"
+				value: (d) => d?.size, // size of each node (file); null for internal nodes (folders)
+				group: (d) => d.name.split('.')[1], // e.g., "animate" in "flare.animate.Easing"; for color
+				label: (d, n) =>
+					[
+						...d.name
+							.split('.')
+							.pop()
+							.split(/(?=[A-Z][a-z])/g),
+						n.value.toLocaleString('en'),
+					].join('\n'),
+				title: (d, n) => `${d.name}\n${n.value.toLocaleString('en')}`, // text to show on hover
 
-// 	let chartDOM = document.querySelector('#chart');
-// 	chartDOM.append(chart);
-// });
+				tile: d3.treemapBinary, // e.g., d3.treemapBinary; set by input above
+				width: 1152,
+				height: 1152,
+			});
+
+			// let chartDOM = document.querySelector('#chart');
+			chartDOM.innerHTML = '';
+			chartDOM.append(chart);
+		});
+	});
+}
