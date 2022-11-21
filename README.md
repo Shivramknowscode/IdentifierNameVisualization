@@ -17,3 +17,6 @@ Instructions to initiate flask
 To run live server
 1. cd treemap
 2. live-server
+
+To update content
+1. Update data.csv with same CSV file structure
