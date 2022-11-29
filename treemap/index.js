@@ -145,23 +145,51 @@ function Treemap(
 	return Object.assign(svg.node(), { scales: { color } });
 }
 
-createVisualization('all');
-
 // DOM Objects
 const form = document.querySelector('form');
 const postTermFilter = document.querySelector('#posterm');
 const searchTermFilter = document.querySelector('#searchterm');
+const searchTermAddBtn = document.querySelector('#searchTermAdd');
+const selectedSearchTerms = document.querySelector('#selectedSearchTerms');
+let searchTermsList = [];
+
+createVisualization('all');
+
+searchTermAddBtn.addEventListener('click', () => {
+	let word = searchTermFilter.value;
+
+	if (!word) return;
+	searchTermsList.push(word);
+	searchTermFilter.value = '';
+
+	const span = document.createElement('span');
+	const remove = document.createElement('button');
+	remove.innerText = 'x';
+	remove.classList.add('del');
+	remove.addEventListener('click', () => {
+		searchTermsList = searchTermsList.filter((t) => t !== word);
+		span.remove();
+	});
+	span.innerText = word;
+	span.append(remove);
+	span.classList.add('chip');
+
+	selectedSearchTerms.append(span);
+});
 
 form.addEventListener('submit', function (e) {
 	e.preventDefault();
 	createVisualization(postTermFilter.value, searchTermFilter.value);
 });
 
-function createVisualization(posTerm, searchTerm = '') {
+function createVisualization(posTerm) {
+	let queriesTerms =
+		searchTermsList.length > 0 ? searchTermsList.join(',') : '';
+
 	let chartDOM = document.querySelector('#chart');
 	chartDOM.innerHTML = 'loading...';
 	const req = fetch(
-		`http://127.0.0.1:5000?posterm=${posTerm}&searchterm=${searchTerm}`,
+		`http://127.0.0.1:5000?posterm=${posTerm}&searchterm=${queriesTerms}`,
 		{ method: 'GET' }
 	);
 	req.then((res) => {
@@ -173,7 +201,7 @@ function createVisualization(posTerm, searchTerm = '') {
 
 			let flare = splitData2.map((i) => ({ name: i[0], size: i[1] }));
 			flare['columns'] = ['name', 'size'];
-			console.log(flare);
+			// console.log(flare);
 
 			let chart = Treemap(flare, {
 				path: (d) => d.name.replace(/\./g, '/'), // e.g., "flare/animate/Easing"

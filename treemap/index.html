@@ -16,8 +16,14 @@
 		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
+		<div class="selection">
+			<p>
+				Select Visualization: <a href="./index.html">Tree Map</a>
+				<a href="./sb.html">Sunburst</a>
+			</p>
+		</div>
 		<div>
-			<form>
+			<form style="display: flex; align-items: flex-start">
 				<div class="posterm">
 					<label for="posterm">Filter by POS Term</label><br />
 					<select id="posterm">
@@ -34,7 +40,11 @@
 
 				<div class="searchterm">
 					<label for="searchterm">Search term</label><br />
-					<input type="text" id="searchterm" />
+					<div>
+						<input type="text" id="searchterm" />
+						<button type="button" id="searchTermAdd">Add</button>
+					</div>
+					<div id="selectedSearchTerms"></div>
 				</div>
 				<div>
 					<button type="submit">Filter</button>

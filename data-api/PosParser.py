@@ -2,6 +2,8 @@ import pygtrie
 from csv import reader
 from random import random
 from pprint import pprint
+import itertools
+import json
 
 
 class PosParser:
@@ -153,10 +155,61 @@ class PosParser:
             csv_ready_data.append(f'{".".join(item)},{total}')
         return csv_ready_data
 
+    def create_sunburst_data(self, data):
+        identifiers_table = []
+        for item in data:
+            identifiers_table.append(item['raw_words'])
+
+        new_data = []
+        for item in identifiers_table:
+            cols = []
+            for lst in identifiers_table:
+                if item[0] == lst[0]:
+                    cols.append([item[0], lst[1:]])
+            new_data.append(cols)
+
+        nd = []
+        for item in new_data:
+            new = [i[1:][0] for i in item if len(i[1:][0]) != 0]
+            nd.append([item[0][0], new])
+
+        nd.sort()
+        fn = list(k for k, _ in itertools.groupby(nd))
+
+        result = []
+        for item in fn:
+            r = {"name": item[0], "size": len(item[1]), "children": []}
+            if len(item[1]) > 0:
+                for i in item[1]:
+                    if len(i) > 1:
+                        temp = []
+                        for x in i:
+                            temp.append({"name": x, "size": 1, "children": []})
+                        count = len(temp) - 1
+                        while count > 0:
+                            temp[count - 1]["children"].append(temp[count])
+                            temp.pop()
+                            count -= 1
+                        r["children"].append(temp[0])
+                    else:
+                        r["children"].append({"name": i[0], "size": 1})
+            result.append(r)
+
+        final_struct = {"name": "Visualization", "children": result}
+        json_data = json.dumps(final_struct)
+        return json_data
+
 
 if __name__ == "__main__":
-    pass
     pos = PosParser("./data/sample.csv")
     pos.make_trie()
-    result = pos.trie.values()
-    res = pos.create_tree_map_csv(result)
+    result = pos.filter_word_by_pos("V")
+    print(result)
+    # result = result.trie.values()
+    # final_data = pos.create_sunburst_data(result)
+    # print(final_data)
+    # raw_data = result.trie.values()
+    # print(pos.create_sunburst_data(raw_data))
+
+    # result = pos.trie.values()
+    # res = pos.create_tree_map_csv(result)
