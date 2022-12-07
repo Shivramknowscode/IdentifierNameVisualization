@@ -20,3 +20,4 @@ To run live server
 
 To update content
 1. Update data.csv with same CSV file structure
+![Poster](https://user-images.githubusercontent.com/40960771/206286742-3b791a5b-2d3d-409f-9f14-7960802a02b8.png)
